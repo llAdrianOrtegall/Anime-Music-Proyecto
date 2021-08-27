@@ -1,0 +1,713 @@
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*----------Inportaciones----------*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+    /*//////////////////////////////*/
+              /*RESOLUCION*/ 
+    /*//////////////////////////////*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.resolucion {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.resolucion h2{
+    color: #ffd000;
+}
+
+.a{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.warning{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 100%;
+    display: flex;
+}
+
+.advertencia p{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 100%;
+    display: flex;
+    line-height: 100px;
+    color: #ffffff;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*----------Reproductor----------*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.reproductor{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.reproductor .contorno{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*----------Menu----------*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.menu{
+    flex: 13.15%;
+    max-width: 15.15%;
+    height: 100%;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.menu .titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .titulo h1{
+    color: #ffffff;
+}
+
+.menu .nav{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.menu .nav ul{
+    border-top: 2px solid #848484;
+    border-bottom: 2px solid #848484;
+    width: 100%;
+    list-style: none;
+    padding: 10px;
+}
+
+.menu .nav ul li{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #9f9f9f;
+    transition: ease all 0.5s;
+}
+
+.menu .proximamente{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .proximamente p{
+    color: #ffffff;
+}
+
+.menu .nav ul li:hover{
+    background-color: red;
+    color: #ffffff;
+}
+
+.menu .nav2{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.menu .nav2 ul{
+    border-bottom: 2px solid #848484;
+    width: 100%;
+    list-style: none;
+    padding: 10px;
+}
+
+.menu .nav2 ul li{
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #9f9f9f;
+    cursor: pointer;
+    transition: ease all 0.5s;
+}
+
+.menu .nav2 ul li:hover{
+    background-color: red;
+    color: #ffffff;
+}
+
+.menu footer{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu footer .copy{
+    width: 100%;
+    color: #ffffff;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.inicio{
+    cursor: pointer;
+}
+
+.artistas-jap{
+    cursor: pointer;
+}
+
+.artistas-lat{
+    cursor: pointer;
+}
+
+.artistas-cover{
+    cursor: pointer;
+}
+
+.animes{
+    cursor: pointer;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*----------Centro Musica----------*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.centro-musica{
+    flex: 60.60%;
+    max-width: 60.60%;
+    height: 100%;
+    background-color: #2e2e2e;
+}
+
+.centro-musica .logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.centro-musica .logo img{
+    width: 40px;
+}
+
+.centro-musica .logo h1{
+    color: #ffffff;
+}
+
+.centro-musica .container{
+    width: 100%;
+    height: 90.5%;
+    position: static;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.centro-musica .container .perfil{
+    position: static;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.centro-musica .container .perfil .photo{
+    flex: 40.40%;
+    max-width: 40.40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.centro-musica .container .perfil .photo img{
+    width: 180px;
+    height: 200px;
+    size: cover;
+    border-radius: 10px;
+    border: 1px solid #c0c0c0;
+}
+
+.centro-musica .container .perfil .info{
+    flex: 60.60%;
+    max-width: 60.60%;
+    height: 100%;
+}
+
+.centro-musica .container .perfil .info p{
+    color: #c0c0c0;
+    font-size: 20px;
+}
+
+.centro-musica .container .perfil .info h1{
+    color: #ffffff;
+    font-size: 50px;
+    padding-left: 10px;
+}
+
+.centro-musica .container .perfil .info h2{
+    color: #ffffff;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.centro-musica .container .canciones{
+    position: static;
+    width: 100%;
+    height: 55.5%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*----------Buscador----------*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.buscador{
+    flex: 25.25%;
+    max-width: 25.25%;
+    height: 100%;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.buscador .buscador-art0, .buscador-art1, .buscador-art2, .buscador-art3, .buscador-art4{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.buscador .buscador-art0 .buscar, .buscador-art1 .buscar, .buscador-art2 .buscar, .buscador-art3 .buscar, .buscador-art4 .buscar{
+    background-color: transparent;
+    border-radius: 50px;
+    border: 2px solid #9f9f9f;
+    padding: 8px;
+}
+
+.buscador .buscador-art0 .buscar i, .buscador-art1 .buscar i, .buscador-art2 .buscar i, .buscador-art3 .buscar i, .buscador-art4 .buscar i{
+    color: #ffffff;
+}
+
+.buscador .buscador-art0 .buscar input, .buscador-art1 .buscar input, .buscador-art2 .buscar input, .buscador-art3 .buscar input, .buscador-art4 .buscar input{
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+}
+
+.content-search0, .content-search1, .content-search2, .content-search3, .content-search4{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-table{
+    width: 100%;
+    max-height: 550px;
+    height: auto;
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+.content-table table{
+    width: 100%;
+}
+
+tbody tr td{
+    display: flex;
+}
+
+tbody tr td img{
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+tbody tr td a{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+    font-size: 25px;
+}
+
+tbody tr td a:hover{
+    background: rgb(255, 0, 0);
+}
+
+#table0_length, #table0_filter, #table0_info, #table0_paginate{
+    display: none;
+}
+
+#table1_length, #table1_filter, #table1_info, #table1_paginate{
+    display: none;
+}
+
+#table2_length, #table2_filter, #table2_info, #table2_paginate{
+    display: none;
+}
+
+#table3_length, #table3_filter, #table3_info, #table3_paginate{
+    display: none;
+}
+
+#table4_length, #table4_filter, #table4_info, #table4_paginate{
+    display: none;
+}
+
+#inicios{
+    display: flex;
+}
+
+#artistas-japo{
+    display: none;
+}
+
+#artistas-lati{
+    display: none;
+}
+
+#artistas-covers{
+    display: none;
+}
+
+#anime{
+    display: none;
+}
+
+#buscador0{
+    display: flex;
+}
+
+#buscador1{
+    display: none;
+}
+
+#buscador2{
+    display: none;
+}
+
+#buscador3{
+    display: none;
+}
+
+#buscador4{
+    display: none;
+}
+
+.content-search-canciones{
+    margin-top: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-table-canciones{
+    width: 100%;
+    max-height:320px;
+    height: auto;
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+.content-table-canciones table{
+    width: 100%;
+}
+
+table tbody tr td a h3{
+    display: flex;
+    flex: 41%;
+    max-width: 41%;
+}
+
+table tbody tr td a audio{
+    display: flex;
+    flex: 50%;
+    max-width: 50%;
+    margin-left: 10px;
+    justify-items: right;
+    align-items: center;
+    text-align: right;
+}
+
+.buscador-canciones{
+    display: none;
+}
+
+#table-canciones_length, #table-canciones_filter, #table-canciones_info, #table-canciones_paginate{
+    display: none;
+}
+
+.aleatorio{
+    position: static;
+    display: flex;
+    width: 100%;
+    height: 8%;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.aleatorio audio{
+    height: 35px;
+    width: 500px;
+}
+
+.aleatorio i{
+    color: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 100%;
+    border: solid 2px #ffffff;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.container{
+    display: none;
+}
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+@media only screen and (max-width: 1280px) and (min-height: 720px) {
+    .content-table{
+        max-height: 610px;
+    }
+    .centro-musica .container .canciones{
+        height: 59.5%;
+    }
+    .content-table-canciones{
+        max-height:385px;
+    }
+    .centro-musica .container .perfil .info p{
+        font-size: 18px;
+    }
+    
+    .centro-musica .container .perfil .info h1{
+        font-size: 48px;
+    }
+    
+    .centro-musica .container .perfil .info h2{
+        font-size: 28px;
+    }
+    table tbody tr td a h3{
+        font-size: 28px;
+    }
+    .menu .nav2 ul li{
+        font-size: 17px;
+    }
+    .menu footer .copy{
+        font-size: 10px;
+    }
+}
+
+@media (min-height: 721px) and (max-height: 764px) {
+    .content-table{
+        max-height: 660px;
+    }
+    .centro-musica .container .canciones{
+        height: 63.5%;
+    }
+    .content-table-canciones{
+        max-height:450px;
+    }
+    .menu footer{
+        margin-top: 120px;
+    }
+}
+
+@media (min-height: 765px) and (max-height: 800px) {
+    .content-table{
+        max-height: 690px;
+    }
+    .centro-musica .container .canciones{
+        height: 63.5%;
+    }
+    .content-table-canciones{
+        max-height:450px;
+    }
+    .menu footer{
+        margin-top: 120px;
+    }
+}
+
+@media only screen and (max-width: 1152px) and (min-height: 864px) {
+    .content-table{
+        max-height: 760px;
+    }
+    .centro-musica .container .canciones{
+        height: 66.5%;
+    }
+    .content-table-canciones{
+        max-height:500px;
+    }
+    .centro-musica .container .perfil .info p{
+        font-size: 16px;
+    }
+    
+    .centro-musica .container .perfil .info h1{
+        font-size: 46px;
+    }
+    
+    .centro-musica .container .perfil .info h2{
+        font-size: 26px;
+    }
+    table tbody tr td a h3{
+        font-size: 24px;
+    }
+    .menu .nav2 ul li{
+        font-size: 15px;
+    }
+    .menu footer .copy{
+        font-size: 9px;
+    }
+    tbody tr td a{
+        font-size: 22px;
+    }
+    tbody tr td img{
+        margin-right: 10px;
+    }
+    .menu footer{
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 1151px) {
+    .reproductor{
+        display: none;
+    }
+    .resolucion{
+        display: flex;
+    }
+
+}
+
+@media (max-width: 456px) {
+    .advertencia p{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 370px) {
+    .advertencia p{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 315px) {
+    .advertencia p{
+        font-size: 9px;
+    }
+}
