@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="icon" type="image/x-icon" href="./img/pagina/nezuko escuchando musica circular.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+    <title>Anime Music</title>
+
+    <script src="js/tabla/jquery.js"></script>
+    <script src="js/tabla/jquery.dataTables.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="reproductor">
+        <div class="contorno">
+
+            <div class="menu">
+                <div class="titulo">
+                    <h1>Menu</h1>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li class="inicio"><a>Inicio</a></li>
+                        <li class="artistas-jap"><a>Artistas JAP</a></li>
+                        <li class="artistas-lat"><a>Artistas LAT</a></li>
+                        <li class="artistas-cover"><a>Artistas Cover</a></li>
+                        <li class="animes"><a>Animes</a></li>
+                    </ul>
+                </div>
+                <div class="proximamente">
+                    <p>!Proximamente!</p>
+                </div>
+                <div class="nav2">
+                    <ul>
+                        <li><a>Lista Reproduccion</a></li>
+                        <li><a>Canciones Favoritas</a></li>
+                    </ul>
+                </div>
+                <footer>
+                    <div class="copy">
+                        <p>| Anime Music |</p>
+                        &copy; 2021 Todo los Derechos Reservados 
+                    </div>
+                </footer>
+            </div>
+
+            <div class="centro-musica">
+                <div class="logo">
+                    <img src="./img/pagina/nezuko escuchando musica circular.png">
+                    <h1>Anime Music</h1>
+                </div>
+
+                <div class="container" id="aaron-montalvo">
+                    <div class="perfil">
+                        <div class="photo">
+                            <img src="./img/artista/aaron-montalvo.jpeg">
+                        </div>
+                        <div class="info">
+                            <p>Artista:</p>
+                            <h1>Aaron Montalvo</h1>
+                            <br />
+                            <br />
+                            <p>Cantante Oficial De:</p>
+                            <h2>Opening y Ending Dragon Ball GT</h2>
+                        </div>
+                    </div>
+                    <div class="canciones">
+                        <div class="buscador-canciones" id="buscador-canciones">
+                            <div class="buscar">
+                                <i class="fas fa-search"></i>
+                                <input type="search" id="input-canciones" class="input" placeholder="Buscar Artista o Anime...">
+                            </div>
+                        </div>
+                        <div class="content-search-canciones" id="canciones">
+                            <div class="content-table-canciones">
+                                <table id="table-canciones">
+                                    <thead>
+                                        <tr>
+                                            <td></td>
+                                        </tr>
+                                    </thead>
+                                        
+                                        <tbody>
+        
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/digimon.jpeg">
+                                                    <h3>Brave Heart</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/aaron/0.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+        
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/angeles.jpg">
+                                                    <h3>Angeles Fuimos</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/aaron/1.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/digimon.jpeg">
+                                                    <h3>Butterfly</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/aaron/2.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/gt.png">
+                                                    <h3>D.B. GT OPENING ITALIANO</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/aaron/3.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/super.jpg">
+                                                    <h3>70 cm Shihou No Madobe</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/aaron/4.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/super.jpg">
+                                                    <h3>Chozetsu Dynamic</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/aaron/5.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/super.jpg">
+                                                    <h3>Limit Break X Survivor</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/aaron/6.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/seiya.jpg">
+                                                    <h3>Pegasus Fantasy</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/aaron/7.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/gt.png">
+                                                    <h3>Mi Corazon Encantado</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/aaron/8.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/gt.png">
+                                                    <h3>Sola Nunca Estaras</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/aaron/9.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/zoids.jpg">
+                                                    <h3>Zoids Opening</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/aaron/10.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+        
+                                        </tbody>
+                                    </table>
+                                </div>  
+                        </div>
+                    </div>
+                    <div class="aleatorio">
+                        <i id="retroceder" class="retroceder fas fa-backward"></i>
+                        <audio id="player" controls>
+                            <source src="./music/artistas lat/aaron/0.mp3" type="audio/mp3">
+                        </audio>
+                        <i id="adelantar" class="adelantar fas fa-forward"></i>
+                    </div>
+                </div>
+
+                <div class="container" id="adrian-barba">
+                    <div class="perfil">
+                        <div class="photo">
+                            <img src="./img/artista/adrian-barba.jpeg">
+                        </div>
+                        <div class="info">
+                            <p>Artista:</p>
+                            <h1>Adrian Barba</h1>
+                            <br />
+                            <br />
+                            <p>Cantante Oficial De:</p>
+                            <h2>Dragon Ball Z y Slam Dunk</h2>
+                        </div>
+                    </div>
+                    <div class="canciones">
+                        <div class="content-search-canciones" id="canciones">
+                            <div class="content-table-canciones">
+                                <table id="table-canciones">
+                                    <thead>
+                                        <tr>
+                                            <td></td>
+                                        </tr>
+                                    </thead>
+                                        
+                                        <tbody>
+
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/slamdunk.jpeg">
+                                                    <h3>Antes De Que El Mundo Llegue A Su Fin</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/adrian/2.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/angeles.jpg">
+                                                    <h3>Angeles Fuimos</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/adrian/10.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/pokemon.jpeg">
+                                                    <h3>Atrapalos Ya!</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/adrian/8.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/digimon.jpeg">
+                                                    <h3>Brave Heart</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/adrian/4.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/angeles.jpg">
+                                                    <h3>El Poder Nuestro Es</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/adrian/11.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/slamdunk.jpeg">
+                                                    <h3>Endless Chain</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/adrian/7.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/naruto.jpg">
+                                                    <h3>La Señal</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/adrian/6.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/slamdunk.jpeg">
+                                                    <h3>Libre Soy</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/adrian/1.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/fullmetal.jpg">
+                                                    <h3>Periodo</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/adrian/5.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/slamdunk.jpeg">
+                                                    <h3>Quiero Gritar Te Amo</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/adrian/0.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/spirit.jpg">
+                                                    <h3>Suenen El Clarin</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/adrian/3.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><a>
+                                                    <img src="./img/anime /canciones/finalbout.jpg">
+                                                    <h3>The Biggest Fight</h3>
+                                                    <audio controls>
+                                                        <source src="./music/artistas lat/adrian/9.mp3" type="audio/mp3">
+                                                    </audio>
+                                                </a></td>
+                                            </tr>
+        
+                                        </tbody>
+                                    </table>
+                                </div>  
+                        </div>
+                    </div>
+                    <div class="aleatorio">
+                        <i id="retroceder" class="retroceder1 fas fa-backward"></i>
+                        <audio id="player1" controls>
+                            <source src="./music/artistas lat/adrian/0.mp3" type="audio/mp3">
+                        </audio>
+                        <i id="adelantar" class="adelantar1 fas fa-forward"></i>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="buscador">
+
+                <div class="buscador-art0" id="buscador0">
+                    <div class="buscar">
+                        <i class="fas fa-search"></i>
+                        <input type="search" id="input-search0" class="input" placeholder="Buscar Artista o Anime...">
+                    </div>
+                </div>
+                <div class="content-search0" id="inicios">
+                    <div class="content-table">
+                        <table id="table0">
+                            <thead>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                            </thead>
+                                
+                                <tbody>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/flow.jpg">Flow</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/lisa.jpeg">Lisa</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/laccotower.jpg">Lacco Tower</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/graffitti.jpg">Porno Graffitti</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/radwimps.jpg">Radwimps</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/granrodeo.jpeg">Granrodeo</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/linkedhorizon.png">Linked Horizon</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="adrian-barba1"><img src="./img/artista/adrian-barba.jpeg">Adrian Barba</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/cesar-franco.jpg">Cesar Franco</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/ricardo-silva.jpg">Ricardo Silva</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/nicolas-silva.jpeg">Nicolas Silva</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/luis-lille.jpg">Luis De Lille</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/Marisa_de_Lille.jpg">Marisa De Lille</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/mauren.jpg">Mauren Mendo</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/jade.jpg">Jade</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="aaron-montalvo1"><img src="./img/artista/aaron-montalvo.jpeg">Aaron Montalvo</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/maryanmg.jpeg">Maryan MG</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/alvaro-veliz.jpeg">Alvaro Veliz</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/rodrigo-zea.jpg">Rodrigo Zea</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/gaby-vega.jpg">Gaby Vegas</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/alan-rojas.jpg">Alan Rojas</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/simone-weber.jpg">Simone Weber</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/the-cover-duo.jpg">The Covers Duo</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/fabres.jpeg">Fabres Covers</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/tadeo.jpeg">Jefferson Tadeo</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/ilonka.jpg">Ilonka Obilinovic</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/omar-caban.jpg">Omar Cabán</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/kimetsunoyaiba.jpg">Kimetsu No Yaiba</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/dragonballz.jpeg">Dragon Ball Z</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/saintseiya.jpeg">Saint Seiya</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/snk.png">Shingeki No Kyojin</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/onepiece.png">One Piece</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/naruto.png">Naruto</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/slamdunk.jpg">Slam Dunk</a></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>  
+                </div>
+
+                <div class="buscador-art1" id="buscador1">
+                    <div class="buscar">
+                        <i class="fas fa-search"></i>
+                        <input type="search" id="input-search1" class="input" placeholder="Buscar Artista o Anime...">
+                    </div>
+                </div>
+                <div class="content-search1" id="artistas-japo">
+                    <div class="content-table">
+                        <table id="table1">
+                            <thead>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                            </thead>
+                                
+                                <tbody>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/flow.jpg">Flow</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/lisa.jpeg">Lisa</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/laccotower.jpg">Lacco Tower</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/graffitti.jpg">Porno Graffitti</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/radwimps.jpg">Radwimps</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/granrodeo.jpeg">Granrodeo</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/linkedhorizon.png">Linked Horizon</a></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>  
+                </div>
+
+                <div class="buscador-art2" id="buscador2">
+                    <div class="buscar">
+                        <i class="fas fa-search"></i>
+                        <input type="search" id="input-search2" class="input" placeholder="Buscar Artista o Anime...">
+                    </div>
+                </div>
+                <div class="content-search2" id="artistas-lati">
+                    <div class="content-table">
+                        <table id="table2">
+                            <thead>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                            </thead>
+                                
+                                <tbody>
+                                    <tr>
+                                        <td><a class="adrian-barba"><img src="./img/artista/adrian-barba.jpeg">Adrian Barba</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/cesar-franco.jpg">Cesar Franco</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/ricardo-silva.jpg">Ricardo Silva</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/nicolas-silva.jpeg">Nicolas Silva</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/luis-lille.jpg">Luis De Lille</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/Marisa_de_Lille.jpg">Marisa De Lille</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/mauren.jpg">Mauren Mendo</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/jade.jpg">Jade</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="aaron-montalvo"><img src="./img/artista/aaron-montalvo.jpeg">Aaron Montalvo</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/maryanmg.jpeg">Maryan MG</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/alvaro-veliz.jpeg">Alvaro Veliz</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/rodrigo-zea.jpg">Rodrigo Zea</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/gaby-vega.jpg">Gaby Vegas</a></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>  
+                </div>
+
+                <div class="buscador-art3" id="buscador3">
+                    <div class="buscar">
+                        <i class="fas fa-search"></i>
+                        <input type="search" id="input-search3" class="input" placeholder="Buscar Artista o Anime...">
+                    </div>
+                </div>
+                <div class="content-search3" id="artistas-covers">
+                    <div class="content-table">
+                        <table id="table3">
+                            <thead>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                            </thead>
+                                
+                                <tbody>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/alan-rojas.jpg">Alan Rojas</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/simone-weber.jpg">Simone Weber</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/the-cover-duo.jpg">The Covers Duo</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/fabres.jpeg">Fabres Covers</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/tadeo.jpeg">Jefferson Tadeo</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/ilonka.jpg">Ilonka Obilinovic</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/omar-caban.jpg">Omar Cabán</a></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>  
+                </div>
+
+                <div class="buscador-art4" id="buscador4">
+                    <div class="buscar">
+                        <i class="fas fa-search"></i>
+                        <input type="search" id="input-search4" class="input" placeholder="Buscar Artista o Anime...">
+                    </div>
+                </div>
+                <div class="content-search4" id="anime">
+                    <div class="content-table">
+                        <table id="table4">
+                            <thead>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                            </thead>
+                                
+                                <tbody>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/kimetsunoyaiba.jpg">Kimetsu No Yaiba</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/dragonballz.jpeg">Dragon Ball Z</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/saintseiya.jpeg">Saint Seiya</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/snk.png">Shingeki No Kyojin</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/onepiece.png">One Piece</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/naruto.png">Naruto</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a class="artistas"><img src="./img/artista/slamdunk.jpg">Slam Dunk</a></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>  
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="resolucion">
+        <div class="a">
+            <div class="warning">
+                <img src="./img/pagina/386.gif" alt="" />
+                    <h2>WARNING</h2>
+                <img src="./img/pagina/386.gif" alt="" />
+            </div>
+            <br />
+            <div class="advertencia">
+                <p>LA  PAGINA  "NO"  ESTA  HABILITADA  PARA  ESTA  RESOLUCION</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/tabla/search.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/reproductor/reproductor.js"></script>
+    <script src="js/elegir.js"></script>
+
+</body>
+
+</html>
