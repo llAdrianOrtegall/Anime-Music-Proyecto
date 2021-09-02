@@ -3,9 +3,9 @@
 ////////// ARTISTAS LATINOS /////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-const aaronMontalvo = document.querySelector(".aaron-montalvo");
+const aaronMontalvo1 = document.querySelector(".aaron-montalvo1");
 
-aaronMontalvo.addEventListener("click", function(){
+aaronMontalvo1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -31,9 +31,9 @@ aaronMontalvo.addEventListener("click", function(){
     document.getElementById('aaron-montalvo').style.display = 'block';;
 })
 
-const adrianBarba = document.querySelector(".adrian-barba")
+const adrianBarba1 = document.querySelector(".adrian-barba1")
 
-adrianBarba.addEventListener("click", function(){
+adrianBarba1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -59,9 +59,9 @@ adrianBarba.addEventListener("click", function(){
     document.getElementById('adrian-barba').style.display = 'block';;
 })
 
-const alvaroVeliz = document.querySelector(".alvaro-veliz")
+const alvaroVeliz1 = document.querySelector(".alvaro-veliz1")
 
-alvaroVeliz.addEventListener("click", function(){
+alvaroVeliz1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -87,9 +87,9 @@ alvaroVeliz.addEventListener("click", function(){
     document.getElementById('alvaro-veliz').style.display = 'block';;
 })
 
-const cesarFranco = document.querySelector(".cesar-franco")
+const cesarFranco1 = document.querySelector(".cesar-franco1")
 
-cesarFranco.addEventListener("click", function(){
+cesarFranco1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -115,9 +115,9 @@ cesarFranco.addEventListener("click", function(){
     document.getElementById('cesar-franco').style.display = 'block';;
 })
 
-const gabyVegas = document.querySelector(".gaby-vega")
+const gabyVegas1 = document.querySelector(".gaby-vega1")
 
-gabyVegas.addEventListener("click", function(){
+gabyVegas1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -143,9 +143,9 @@ gabyVegas.addEventListener("click", function(){
     document.getElementById('gaby-vega').style.display = 'block';;
 })
 
-const jade = document.querySelector(".jade")
+const jade1 = document.querySelector(".jade1")
 
-jade.addEventListener("click", function(){
+jade1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -171,9 +171,9 @@ jade.addEventListener("click", function(){
     document.getElementById('jade').style.display = 'block';;
 })
 
-const luisLille = document.querySelector(".luis-lille")
+const luisLille1 = document.querySelector(".luis-lille1")
 
-luisLille.addEventListener("click", function(){
+luisLille1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -199,9 +199,9 @@ luisLille.addEventListener("click", function(){
     document.getElementById('luis-lille').style.display = 'block';;
 })
 
-const marisaLille = document.querySelector(".marisa-lille")
+const marisaLille1 = document.querySelector(".marisa-lille1")
 
-marisaLille.addEventListener("click", function(){
+marisaLille1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -227,9 +227,9 @@ marisaLille.addEventListener("click", function(){
     document.getElementById('marisa-lille').style.display = 'block';;
 })
 
-const maryanMG = document.querySelector(".maryan-mg")
+const maryanMG1 = document.querySelector(".maryan-mg1")
 
-maryanMG.addEventListener("click", function(){
+maryanMG1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -255,9 +255,9 @@ maryanMG.addEventListener("click", function(){
     document.getElementById('maryan-mg').style.display = 'block';;
 })
 
-const maurenMendo = document.querySelector(".mauren-mendo")
+const maurenMendo1 = document.querySelector(".mauren-mendo1")
 
-maurenMendo.addEventListener("click", function(){
+maurenMendo1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -283,9 +283,9 @@ maurenMendo.addEventListener("click", function(){
     document.getElementById('mauren-mendo').style.display = 'block';;
 })
 
-const nicolasSilva = document.querySelector(".nicolas-silva")
+const nicolasSilva1 = document.querySelector(".nicolas-silva1")
 
-nicolasSilva.addEventListener("click", function(){
+nicolasSilva1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -311,9 +311,9 @@ nicolasSilva.addEventListener("click", function(){
     document.getElementById('nicolas-silva').style.display = 'block';;
 })
 
-const ricardoSilva = document.querySelector(".ricardo-silva")
+const ricardoSilva1 = document.querySelector(".ricardo-silva1")
 
-ricardoSilva.addEventListener("click", function(){
+ricardoSilva1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -339,9 +339,9 @@ ricardoSilva.addEventListener("click", function(){
     document.getElementById('ricardo-silva').style.display = 'block';;
 })
 
-const rodrigoZEA = document.querySelector(".rodrigo-zea")
+const rodrigoZEA1 = document.querySelector(".rodrigo-zea1")
 
-rodrigoZEA.addEventListener("click", function(){
+rodrigoZEA1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -378,9 +378,9 @@ rodrigoZEA.addEventListener("click", function(){
 ////////// ARTISTAS JAPONESES ///////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-const flow = document.querySelector(".flow")
+const flow1 = document.querySelector(".flow1")
 
-flow.addEventListener("click", function(){
+flow1.addEventListener("click", function(){
 
     document.getElementById('radwimps').style.display = 'none';;
     document.getElementById('porno-graffitti').style.display = 'none';;
@@ -413,9 +413,9 @@ flow.addEventListener("click", function(){
     document.getElementById('flow').style.display = 'block';;
 })
 
-const granrodeo = document.querySelector(".granrodeo")
+const granrodeo1 = document.querySelector(".granrodeo1")
 
-granrodeo.addEventListener("click", function(){
+granrodeo1.addEventListener("click", function(){
 
     document.getElementById('radwimps').style.display = 'none';;
     document.getElementById('porno-graffitti').style.display = 'none';;
@@ -448,9 +448,9 @@ granrodeo.addEventListener("click", function(){
     document.getElementById('granrodeo').style.display = 'block';;
 })
 
-const laccoTower = document.querySelector(".lacco-tower")
+const laccoTower1 = document.querySelector(".lacco-tower1")
 
-laccoTower.addEventListener("click", function(){
+laccoTower1.addEventListener("click", function(){
 
     document.getElementById('radwimps').style.display = 'none';;
     document.getElementById('porno-graffitti').style.display = 'none';;
@@ -483,9 +483,9 @@ laccoTower.addEventListener("click", function(){
     document.getElementById('lacco-tower').style.display = 'block';;
 })
 
-const linkedHorizon = document.querySelector(".linked-horizon")
+const linkedHorizon1 = document.querySelector(".linked-horizon1")
 
-linkedHorizon.addEventListener("click", function(){
+linkedHorizon1.addEventListener("click", function(){
 
     document.getElementById('radwimps').style.display = 'none';;
     document.getElementById('porno-graffitti').style.display = 'none';;
@@ -518,9 +518,9 @@ linkedHorizon.addEventListener("click", function(){
     document.getElementById('linked-horizon').style.display = 'block';;
 })
 
-const lisa = document.querySelector(".lisa")
+const lisa1 = document.querySelector(".lisa1")
 
-lisa.addEventListener("click", function(){
+lisa1.addEventListener("click", function(){
 
     document.getElementById('radwimps').style.display = 'none';;
     document.getElementById('porno-graffitti').style.display = 'none';;
@@ -553,9 +553,9 @@ lisa.addEventListener("click", function(){
     document.getElementById('lisa').style.display = 'block';;
 })
 
-const pornoGraffitti = document.querySelector(".porno-graffitti")
+const pornoGraffitti1 = document.querySelector(".porno-graffitti1")
 
-pornoGraffitti.addEventListener("click", function(){
+pornoGraffitti1.addEventListener("click", function(){
 
     document.getElementById('radwimps').style.display = 'none';;
     document.getElementById('lisa').style.display = 'none';;
@@ -588,9 +588,9 @@ pornoGraffitti.addEventListener("click", function(){
     document.getElementById('porno-graffitti').style.display = 'block';;
 })
 
-const radwimps = document.querySelector(".radwimps")
+const radwimps1 = document.querySelector(".radwimps1")
 
-radwimps.addEventListener("click", function(){
+radwimps1.addEventListener("click", function(){
 
     document.getElementById('porno-graffitti').style.display = 'none';;
     document.getElementById('lisa').style.display = 'none';;
@@ -634,9 +634,9 @@ radwimps.addEventListener("click", function(){
 ////////// ARTISTAS COVERS //////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-const alanRojas = document.querySelector(".alan-rojas")
+const alanRojas1 = document.querySelector(".alan-rojas1")
 
-alanRojas.addEventListener("click", function(){
+alanRojas1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -669,9 +669,9 @@ alanRojas.addEventListener("click", function(){
     document.getElementById('alan-rojas').style.display = 'block';;
 })
 
-const fabresCovers = document.querySelector(".fabres-covers")
+const fabresCovers1 = document.querySelector(".fabres-covers1")
 
-fabresCovers.addEventListener("click", function(){
+fabresCovers1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -704,9 +704,9 @@ fabresCovers.addEventListener("click", function(){
     document.getElementById('fabres-covers').style.display = 'block';;
 })
 
-const ilonkaObilinovic = document.querySelector(".ilonka-obilinovic")
+const ilonkaObilinovic1 = document.querySelector(".ilonka-obilinovic1")
 
-ilonkaObilinovic.addEventListener("click", function(){
+ilonkaObilinovic1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -739,9 +739,9 @@ ilonkaObilinovic.addEventListener("click", function(){
     document.getElementById('ilonka-obilinovic').style.display = 'block';;
 })
 
-const jeffersonTadeo = document.querySelector(".jefferson-tadeo")
+const jeffersonTadeo1 = document.querySelector(".jefferson-tadeo1")
 
-jeffersonTadeo.addEventListener("click", function(){
+jeffersonTadeo1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -774,9 +774,9 @@ jeffersonTadeo.addEventListener("click", function(){
     document.getElementById('jefferson-tadeo').style.display = 'block';;
 })
 
-const omarCaban= document.querySelector(".omar-caban")
+const omarCaban1= document.querySelector(".omar-caban1")
 
-omarCaban.addEventListener("click", function(){
+omarCaban1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -809,9 +809,9 @@ omarCaban.addEventListener("click", function(){
     document.getElementById('omar-caban').style.display = 'block';;
 })
 
-const simoneWeber= document.querySelector(".simone-weber")
+const simoneWeber1= document.querySelector(".simone-weber1")
 
-simoneWeber.addEventListener("click", function(){
+simoneWeber1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -844,9 +844,9 @@ simoneWeber.addEventListener("click", function(){
     document.getElementById('simone-weber').style.display = 'block';;
 })
 
-const theCoversDuo= document.querySelector(".the-covers-duo")
+const theCoversDuo1= document.querySelector(".the-covers-duo1")
 
-theCoversDuo.addEventListener("click", function(){
+theCoversDuo1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -890,9 +890,9 @@ theCoversDuo.addEventListener("click", function(){
 ////////// ANIMES ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-const kimetsuNoYaiba = document.querySelector(".kimetsu-no-yaiba")
+const kimetsuNoYaiba1 = document.querySelector(".kimetsu-no-yaiba1")
 
-kimetsuNoYaiba.addEventListener("click", function(){
+kimetsuNoYaiba1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -932,9 +932,9 @@ kimetsuNoYaiba.addEventListener("click", function(){
     document.getElementById('kimetsu-no-yaiba').style.display = 'block';;
 })
 
-const dragonBallZ = document.querySelector(".dragon-ball-z")
+const dragonBallZ1 = document.querySelector(".dragon-ball-z1")
 
-dragonBallZ.addEventListener("click", function(){
+dragonBallZ1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -974,9 +974,9 @@ dragonBallZ.addEventListener("click", function(){
     document.getElementById('dragon-ball-z').style.display = 'block';;
 })
 
-const naruto = document.querySelector(".naruto")
+const naruto1 = document.querySelector(".naruto1")
 
-naruto.addEventListener("click", function(){
+naruto1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -1016,9 +1016,9 @@ naruto.addEventListener("click", function(){
     document.getElementById('naruto').style.display = 'block';;
 })
 
-const onePiece = document.querySelector(".one-piece")
+const onePiece1 = document.querySelector(".one-piece1")
 
-onePiece.addEventListener("click", function(){
+onePiece1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -1058,9 +1058,9 @@ onePiece.addEventListener("click", function(){
     document.getElementById('one-piece').style.display = 'block';;
 })
 
-const saintSeiya = document.querySelector(".saint-seiya")
+const saintSeiya1 = document.querySelector(".saint-seiya1")
 
-saintSeiya.addEventListener("click", function(){
+saintSeiya1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -1100,9 +1100,9 @@ saintSeiya.addEventListener("click", function(){
     document.getElementById('saint-seiya').style.display = 'block';;
 })
 
-const shingekiNoKiojin = document.querySelector(".shingeki-no-kiojin")
+const shingekiNoKiojin1 = document.querySelector(".shingeki-no-kiojin1")
 
-shingekiNoKiojin.addEventListener("click", function(){
+shingekiNoKiojin1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
@@ -1142,9 +1142,9 @@ shingekiNoKiojin.addEventListener("click", function(){
     document.getElementById('shingeki-no-kiojin').style.display = 'block';;
 })
 
-const slamDunk = document.querySelector(".slam-dunk")
+const slamDunk1 = document.querySelector(".slam-dunk1")
 
-slamDunk.addEventListener("click", function(){
+slamDunk1.addEventListener("click", function(){
 
     document.getElementById('flow').style.display = 'none';;
     document.getElementById('radwimps').style.display = 'none';;
